@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jchung225/ClickyGame/issues"
   },
-  "homepage": "https://github.com/jchung225/ClickyGame#readme"
+  "homepage": "https://github.com/jchung225/ClickyGame#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
