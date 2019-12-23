@@ -1,11 +1,24 @@
 {
-  "name": "clickygame",
-  "version": "1.0.0",
+  "name": "clicky-game",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "gh-pages": "^1.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.4.2",
+    "react-flip-move": "^3.0.2",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jchung225/ClickyGame.git"
@@ -15,8 +28,5 @@
   "bugs": {
     "url": "https://github.com/jchung225/ClickyGame/issues"
   },
-  "homepage": "https://github.com/jchung225/ClickyGame#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "homepage": "https://github.com/jchung225/ClickyGame#readme"
 }

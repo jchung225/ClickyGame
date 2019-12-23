@@ -1,12 +1,52 @@
-.title {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 0px;
+body {
+  /* 
+
+
+*/
+  background-color: black;
+  background-image: url("./images/sandy-millar-750251-unsplash.jpg");
+  background-size: cover;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  /* font-family: "Love Ya Like A Sister", cursive; */
+  font-family: "Cabin Sketch", cursive;
+
+  /* background-color: #222; */
+  height: 100%;
+  padding: 20px;
+  color: rgba(216, 202, 12, 0.904);
+  text-shadow: 4px 4px 8px #000000;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.gameWrapper {
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 25px 0 50px;
+  justify-content: space-around;
+  align-content: flex-start;
+}
+.scores {
+  float: left;
+  margin-left: 40px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
   }
-  
-  .scoreSummary{
-    width: 100%;
-    text-align: center;
-    margin-bottom: 20px;	
+  to {
+    transform: rotate(360deg);
   }
-  
+}
