@@ -2,7 +2,7 @@
   "name": "clickygame",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/jchung225/ClickyGame",
+  "homepage": "https://jchung225.github.io/ClickyGame/",
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
@@ -17,5 +17,6 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "gh-pages": "^2.1.1"
   }
 }
