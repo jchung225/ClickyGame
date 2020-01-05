@@ -1,21 +1,14 @@
-import React, { Component } from 'react';
+import React from "react";
+import Jumbotron from "./components/Jumbotron";
+import MainGameContainer from "./components/MainGameContainer";
+import "./App.css";
 
-import Board from './components/board/board';
-import Footer from './components/footer/footer';
-import Header from './components/header/header';
-import './App.css';
 
-class App extends Component {
-
-  render() {
-    return (
-      <div className="App">
-        <Header />
-        <Board />
-        <Footer />
-      </div>
-    );
-  }
-}
+const App = () => (
+  <div className="container-fluid mainContainer">
+    <Jumbotron />
+    <MainGameContainer /> 
+  </div>
+);
 
 export default App;
